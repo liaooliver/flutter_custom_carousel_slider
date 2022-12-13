@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_carousel_slider/pages/navpages/home_page.dart';
+import 'package:flutter_custom_carousel_slider/pages/navpages/main_page.dart';
 
 import './pages/welcome_page.dart';
 
@@ -26,6 +28,6 @@ class MyApp extends StatelessWidget {
           // is not restarted.
           primarySwatch: Colors.blue,
         ),
-        home: WelcomePage());
+        home: MainPage());
   }
 }
